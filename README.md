@@ -246,6 +246,29 @@ Works perfectly. `detectBrowser()` returns `[]` when `navigator` is undefined, s
 
 Zero dependencies. Tree-shakeable.
 
+## Status
+
+Production-shaped package, small enough to audit quickly.
+
+- TypeScript source.
+- ESM and CJS builds.
+- Type declarations.
+- Zero runtime dependencies.
+- SSR-safe browser detection.
+- Vitest coverage for data integrity, sorting, presets, lookup, browser detection, and suggestion behavior.
+- Published-package shape through `exports`, `files`, and `prepublishOnly`.
+
+Current cleanup needs:
+
+- Move or mirror the repo from `spanishflu-est1918` to `gorkamolero`.
+- Add a compact visual example of the dropdown pattern.
+
+## Portfolio Context
+
+This is a small but useful UX-engineering proof. It shows the ability to notice a real product papercut, make a data-backed API, keep the implementation tiny, and package it as something another engineer can install in minutes.
+
+The signal is not size; the signal is taste. Alphabetical language dropdowns are technically easy and usually wrong. `lingua-priority` turns that judgment into a clean, dependency-free library with a simple API.
+
 ## FAQ
 
 **Q: Why not just use the browser's locale?**
